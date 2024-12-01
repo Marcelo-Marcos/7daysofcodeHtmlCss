@@ -1,0 +1,26 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 6rem 15rem 6rem 15rem;
+}
+
+.banner__titulo-principal {
+  color: #8E2424;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.banner__titulo-secundario {
+  color: #101828;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.banner__texto {
+  color: #667085;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5em;
+}

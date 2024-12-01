@@ -1,0 +1,96 @@
+.vagas {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.25rem;
+  padding: 0 1.5rem 0 0.7rem;
+}
+
+.vagas__conatainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vagas__titulo-principal {
+  color: #8E2424;
+  font-weight: 500;
+  font-size: 0.875rem;
+  background-color: rgba(142, 36, 36, 0.05);
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+  border-radius: 8px;
+}
+
+.vagas__titulo-secundario {
+  color: #101828;
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
+.vagas__texto {
+  color: #667085;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.vagas__imagem {
+  padding: 2rem 1rem 2.5rem 2rem;
+}
+
+.vagas__lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 2.75rem;
+}
+
+.lista__caixa {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 48rem;
+  padding-bottom: 0.5rem;
+}
+
+.lista__titulo {
+  color: #101828;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.lista-profissao {
+  gap: 1.5rem;
+}
+
+.profissao {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: solid 1px #EAECF0;
+  border-radius: 15px;
+  width: 48rem;
+  gap: 2rem;
+  padding: 1.5rem;
+  transition: 1s;
+}
+
+.profissao:hover {
+  box-shadow: 0px 4px 8px rgba(28, 34, 48, 0.6);
+}
+
+.titulo-profissao {
+  color: #101828;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.informacoes {
+  color: #667085;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.salario {
+  margin-left: 1.5rem;
+}

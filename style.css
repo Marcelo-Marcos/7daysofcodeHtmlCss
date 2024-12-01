@@ -1,0 +1,28 @@
+@import url('./styles/reset.css');
+@import url('./styles/cabecalho.css');
+@import url('./styles/banner.css');
+@import url('./styles/metricas.css');
+@import url('./styles/vagas.css');
+
+:root {
+  --cor-fundo: #FFFFFF;
+  --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  margin: 0 7rem 0 7rem;
+  font-family: var(--fonte-principal);
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    margin: 0 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    margin: 0 auto 0 auto;
+  }
+}
