@@ -4,6 +4,7 @@
 @import url('./styles/metricas.css');
 @import url('./styles/vagas.css');
 @import url('./styles/depoimentos.css');
+@import url('./styles/rodape.css');
 
 :root {
   --cor-fundo: #FFFFFF;
@@ -12,18 +13,21 @@
 
 body {
   background-color: var(--cor-fundo);
-  margin: 0 7rem 0 7rem;
   font-family: var(--fonte-principal);
 }
 
+section {
+  margin: 0 7rem 0 7rem;
+}
+
 @media screen and (max-width: 1500px) {
-  body {
+  section {
     margin: 0 1rem 0 1rem;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  body {
+  section {
     margin: 0 auto 0 auto;
   }
 }
