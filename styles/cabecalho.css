@@ -177,4 +177,8 @@
     background-image: url("../img/menu-X.svg");
   }
 
+  .opções__botão:checked~.lista-menu {
+    width: 40%;
+  }
+
 }
