@@ -95,3 +95,23 @@
 .salario {
   margin-left: 1.5rem;
 }
+
+@media screen and (max-width: 900px) {
+  .profissao {
+    width: 30rem;
+  }
+
+  .lista__caixa {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .profissao {
+    width: 20rem;
+  }
+
+  .lista__caixa {
+    width: 20rem;
+  }
+}

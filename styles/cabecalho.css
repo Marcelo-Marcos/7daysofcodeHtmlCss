@@ -44,6 +44,10 @@
   text-shadow: 2px 2px 5px rgba(28, 34, 48, 0.6);
 }
 
+.menu__tablet {
+  display: none;
+}
+
 .menu__botoes {
   display: flex;
   gap: 2rem;
@@ -62,4 +66,115 @@
 .link-botao:hover {
   background-color: #BC4A4A;
   box-shadow: 0px 4px 8px rgba(28, 34, 48, 0.6);
+}
+
+.lista-menu {
+  display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .menu__logo,
+  .menu__links,
+  .opções__botão {
+    display: none;
+  }
+
+  .cabecalho {
+      padding: 1.125rem 0 1.125rem 0;
+      margin: 0 3% 0 3%;
+  }
+
+  .cabecalho__menu {
+      margin: 0;
+  }
+
+  .logo__link-tablet {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #3A404E;
+  }
+
+  .menu__botoes {
+      margin-top: 0.5rem;
+  }
+  
+  .menu__tablet,
+  .logo__tablet {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #3A404E;
+  }
+
+  .menu__tablet:click {
+    font-size: 5rem;
+  }
+
+  .opções__botão:checked~.lista-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 1rem;
+    align-items: start;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #3A404E;
+    background-color: #f7eeee;
+    width: 25%;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(195, 25, 25, 0.6);
+    background: linear-gradient(100deg, #f7eeee 50%, #e9a7a7 100%);
+    left: 0;
+  }
+
+  .opções__botão:checked~.lista-menu:hover {
+    padding: 1.6rem;
+  }
+
+  .lista-menu__link {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #3A404E;
+  }
+
+  .lista-menu__link:hover {
+    color: #2A3449;
+    text-shadow: 2px 2px 5px rgba(28, 34, 48, 0.6);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .texto__mobile {
+    display: none;
+  }
+
+  .container__rotulo {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .menu__hamburguer {
+    width: 28px;
+    height: 28px;
+    background-image: url("../img/menu-hamburguer.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    padding: 0.4em 0.4em 0.4em 0;
+    transition: background-image 0.3s ease;
+}
+
+  .opções__botão:checked~.container__rotulo>.menu__hamburguer {
+    background-image: url("../img/menu-X.svg");
+  }
+
 }

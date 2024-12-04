@@ -20,14 +20,8 @@ section {
   margin: 0 7rem 0 7rem;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   section {
-    margin: 0 1rem 0 1rem;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  section {
-    margin: 0 auto 0 auto;
+    margin: 0 3% 0 3%;
   }
 }

@@ -24,3 +24,9 @@
   font-size: 1.25rem;
   line-height: 1.5em;
 }
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    padding: 6rem 0 6rem 0;
+  }
+}
